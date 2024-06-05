@@ -7,6 +7,7 @@ int main()
     SalesData book1, book2;
     double price = 0;
 
+    // we have to declare std here because we do not declare what namespace we are in
     std::cout << "Enter Book 1 Details" << std::endl;
     std::cin >> book1.bookNo >> book1.unitsSold >> price;
     book1.revenue = book1.unitsSold * price;
