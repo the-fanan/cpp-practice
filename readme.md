@@ -8,5 +8,5 @@ A repo for mastering C++
 
 
 ## Running Programs
-1. `g++ PATH_TO_FILE -o PATH_TO_DESTINATION` (use `.capp` as extension)
+1. `g++ -std=c++11 PATH_TO_FILE -o PATH_TO_DESTINATION` (use `.capp` as extension)
 2. `./PATH_TO_COMPILED.capp` (to run the compiled binary)
